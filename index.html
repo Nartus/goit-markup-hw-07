@@ -20,36 +20,46 @@
   </head>
   <body>
     <!-- ШАПКА -->
-    <header class="flex br-header">
-      <div class="container header-flex">
-        <nav class="flex nav">
+    <header class="header">
+      <div class="header__container">
+        <nav class="navigation">
           <a class="logo-two" href=""
             ><span class="logo-one">Web</span>Studio</a
           >
-          <ul class="flex">
-            <li class="studio-flex">
-              <a class="studio current" href="">Студія</a>
+          <ul class="navigation__block">
+            <li class="navigation__point">
+              <a
+                class="navigation__studio navigation_change-color current"
+                href=""
+                >Студія</a
+              >
             </li>
-            <li class="studio-flex">
-              <a class="portfolio" href="./portfolio.html">Портфоліо</a>
+            <li class="navigation__point">
+              <a
+                class="navigation__portfolio navigation_change-color"
+                href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
-            <li class="studio-flex">
-              <a class="contacts" href="">Контакти</a>
+            <li class="navigation__point">
+              <a class="navigation__contacts navigation_change-color" href=""
+                >Контакти</a
+              >
             </li>
           </ul>
         </nav>
-        <ul class="flex">
-          <li class="contact">
-            <a class="mail" href="mailto:info@devstudio.com"
-              ><svg class="envelope" width="16" height="12">
+        <ul class="header-contacts">
+          <li class="header-contacts__contact">
+            <a class="mail mail_change-color" href="mailto:info@devstudio.com"
+              ><svg class="envelope-logo" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li class="contact">
-            <a class="phone" href="tel:+380961111111">
-              <svg class="smartphone" width="10" height="16">
+            <a class="phone phone_chahge-color" href="tel:+380961111111">
+              <svg class="smartphone-logo" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
