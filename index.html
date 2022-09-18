@@ -21,9 +21,9 @@
   <body>
     <!-- ШАПКА -->
     <header class="header">
-      <div class="container header__container">
-        <nav class="navigation">
-          <a class="logo header__logo logo_dark" href=""
+      <div class="container container__flex">
+        <nav class="navigation container__margin-r">
+          <a class="logo header__logo logo_dark navigation__margin-r" href=""
             ><span class="logo_accent">Web</span>Studio</a
           >
           <ul class="navigation__list">
@@ -33,31 +33,25 @@
               >
             </li>
             <li class="navigation__item">
-              <a
-                class="navigation__link navigation_change-color"
-                href="./portfolio.html"
-                >Портфоліо</a
-              >
+              <a class="navigation__link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link navigation_change-color" href=""
-                >Контакти</a
-              >
+              <a class="navigation__link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="header-contacts">
-          <li class="header-contacts__contact">
-            <a class="mail mail_change-color" href="mailto:info@devstudio.com"
-              ><svg class="envelope-logo" width="16" height="12">
+          <li class="header-contacts__margin-r">
+            <a class="header-contacts__link" href="mailto:info@devstudio.com"
+              ><svg class="header-contacts__icon" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact">
-            <a class="phone" href="tel:+380961111111">
-              <svg class="smartphone-logo" width="10" height="16">
+          <li>
+            <a class="header-contacts__link" href="tel:+380961111111">
+              <svg class="header-contacts__icon" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -167,144 +161,144 @@
         </div>
       </section>
       <!-- НАША КОМАНДА -->
-      <section class="section-team">
+      <section class="team">
         <div class="container">
-          <h2 class="headlines-two">Наша команда</h2>
-          <ul class="flex-team">
-            <li class="block">
+          <h2 class="team__headline">Наша команда</h2>
+          <ul class="team__list">
+            <li class="team__block">
               <img src="images/1.jpg" alt="фото Ігор Дем'яненко" width="270" />
-              <h3 class="name">Ігор Дем'яненко</h3>
-              <p class="name-work" lang="en">Product Designer</p>
-              <ul class="flex-icon-one">
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+              <h3 class="team__name">Ігор Дем'яненко</h3>
+              <p class="team__work" lang="en">Product Designer</p>
+              <ul class="team__social-networks">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="block">
+            <li class="team__block">
               <img src="images/2.jpg" alt="фото Ольга Рєпіна" width="270" />
-              <h3 class="name">Ольга Рєпіна</h3>
-              <p class="name-work" lang="en">Frontend Developer</p>
-              <ul class="flex-icon-one">
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+              <h3 class="team__name">Ольга Рєпіна</h3>
+              <p class="team__work" lang="en">Frontend Developer</p>
+              <ul class="team__social-networks">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="block">
+            <li class="team__block">
               <img src="images/3.jpg" alt="фото Микола Тарасов" width="270" />
-              <h3 class="name">Микола Тарасов</h3>
-              <p class="name-work" lang="en">Marketing</p>
-              <ul class="flex-icon-one">
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+              <h3 class="team__name">Микола Тарасов</h3>
+              <p class="team__work" lang="en">Marketing</p>
+              <ul class="team__social-networks">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="block">
+            <li class="team__block">
               <img src="images/4.jpg" alt="фото Михайло Єрмаков" width="270" />
-              <h3 class="name">Михайло Єрмаков</h3>
-              <p class="name-work" lang="en">UI Designer</p>
-              <ul class="flex-icon-one">
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+              <h3 class="team__name">Михайло Єрмаков</h3>
+              <p class="team__work" lang="en">UI Designer</p>
+              <ul class="team__social-networks">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-team">
-                  <a class="icon-hover-one" href="">
-                    <svg class="icon-instagram" width="20" height="20">
+                <li class="team__icon">
+                  <a class="team__link-icon" href="">
+                    <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                     </svg>
                   </a>
