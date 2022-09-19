@@ -64,19 +64,9 @@ img {
     url(../images/Imgfon.jpg);
 }
 
-/* .mail__envelope-logo {
-  fill: currentColor;
-  margin-right: 10px;
-} */
-
-.header-contacts__icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.section-excellence {
+/* .section-excellence {
   padding-top: 94px;
-}
+} */
 
 .section-two {
   padding-top: 94px;
@@ -185,6 +175,11 @@ img {
 .header-contacts__link:hover,
 .header-contacts__link:focus {
   color: var(--logo-one);
+}
+
+.header-contacts__icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .navigation__item {
@@ -309,8 +304,6 @@ img {
   color: var(--text-darkgray);
 }
 
-/*перечень описания достоинств */
-
 .excellence__icons {
   display: flex;
   justify-content: center;
@@ -343,6 +336,8 @@ img {
 .excellence__description:last-child {
   margin-right: 0;
 }
+
+/* Чем занимаемся */
 
 .flex-work {
   display: flex;
@@ -484,6 +479,8 @@ img {
   color: var(--text-white);
   background-color: var(--logo-one);
 }
+
+/* конец блока команды */
 
 .icon-hover {
   display: flex;
