@@ -72,10 +72,10 @@
 .form-email {
   display: flex;
   align-content: flex-start;
-}
 
-.form-email::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .input-email {
@@ -89,11 +89,11 @@
   background-color: var(--dark-fon);
   color: var(--text-white);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.input-email:focus {
-  border-color: var(--logo-one);
-  outline: none;
+  &:focus {
+    border-color: var(--logo-one);
+    outline: none;
+  }
 }
 
 .button-email {

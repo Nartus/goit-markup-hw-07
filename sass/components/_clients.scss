@@ -30,10 +30,10 @@
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients-hover:hover,
-.clients-hover:focus {
-  border-color: var(--logo-one);
-  color: var(--logo-one);
+  &:hover,
+  &:focus {
+    border-color: var(--logo-one);
+    color: var(--logo-one);
+  }
 }

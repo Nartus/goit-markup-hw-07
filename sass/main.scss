@@ -1,5 +1,8 @@
-@import ".sass/base/styles.scss";
-@import "header";
+@import "./base/styles.scss";
+@import "./layout/header";
 @import "./components/section-title";
 @import "./components/excellence";
 @import "./components/team";
+@import "./layout/footer";
+@import "./components/portfolio.scss";
+@import "./utils/modal";

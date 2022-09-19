@@ -49,7 +49,7 @@
 
 .excellence__description {
   margin-right: 30px;
-}
-.excellence__description:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
