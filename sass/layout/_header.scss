@@ -99,6 +99,10 @@
     margin-right: 93px;
   }
 
+  &__link_current {
+    color: var(--logo-one);
+  }
+
   &__link_current::after {
     content: "";
     position: absolute;
@@ -108,9 +112,9 @@
     background: var(--logo-one);
     border-radius: 2px;
 
-    & {
-      color: var(--logo-one);
-    }
+    // & {
+    //   color: var(--logo-one);
+    // }
   }
 }
 
