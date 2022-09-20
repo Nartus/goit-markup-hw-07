@@ -321,6 +321,53 @@ img {
   margin-right: 0;
 }
 
+.section-two {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.headlines-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: var(--text-darkgray);
+}
+
+.flex-work {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.img-position {
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-white);
+}
+
+.img-background {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -398,6 +445,42 @@ img {
 .team__link-icon:hover, .team__link-icon:focus {
   color: var(--text-white);
   background-color: var(--logo-one);
+}
+
+.section-svg {
+  padding-top: 90px;
+  padding-bottom: 93px;
+}
+
+.standing-clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.clients-flex {
+  display: flex;
+  gap: 30px;
+}
+
+.clients-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-svg);
+  border-radius: 4px;
+  color: var(--icon-svg);
+  fill: currentColor;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients-hover:hover, .clients-hover:focus {
+  border-color: var(--logo-one);
+  color: var(--logo-one);
 }
 
 .dark-fon-two {
